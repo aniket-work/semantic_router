@@ -4,7 +4,7 @@ from semantic_router import Route
 from semantic_router import RouteLayer
 from tabulate import tabulate
 
-os.environ['COHERE_API_KEY'] = "sbSVmPosNgOfCJ96FQMGAoGDIiKyhLyj3bF9m0PN"
+os.environ['COHERE_API_KEY'] = "<<YOUR_KEY>>"
 
 data_processing = Route(
     name="data_processing",
